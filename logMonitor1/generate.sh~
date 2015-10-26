@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Starting server log generatorr"
+java -jar logGenerator.jar $1

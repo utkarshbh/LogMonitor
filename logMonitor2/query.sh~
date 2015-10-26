@@ -1,0 +1,5 @@
+#!/bin/bash
+#!/bin/bash
+javac *.java
+echo "Starting server log and query simulator"
+java -jar logSimulator.jar $1

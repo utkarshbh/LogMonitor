@@ -3,8 +3,10 @@ Simulating a monitoring system, which monitors 1000 servers. Each server has 2 C
 
 The format is like this:
 
-timestamp 	IP 		cpu_id usage
+timestamp   IP       cpu_id usage
+
 1414689783	192.168.1.10	0	87
+
 1414689783	192.168.1.10	1	90
 
 To write a simulator to generate the logs for one day, say 2014-10-31, just use random numbers between 0% to 100% as CPU usage. The generator should write data to files in a directory.  The timestamp is Unix time.
